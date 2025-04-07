@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AR Restaurant Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f7f7;
+      padding: 40px;
+      color: #333;
+    }
+    .menu-container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .menu-section {
+      margin-top: 40px;
+    }
+    .section-title {
+      font-size: 24px;
+      color: #c0392b;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #ddd;
+    }
+    .menu-item h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .menu-item p {
+      margin: 5px 0 0 0;
+      font-size: 14px;
+      color: #666;
+    }
+    .menu-item a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    .menu-item a:hover {
+      text-decoration: underline;
+    }
+    .price {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-container">
+    <h1>🍽️ STDM Kitchen</h1>
+    <p style="text-align: center;">Tap a dish name to see it in Augmented Reality</p>
+
+    <div class="menu-section">
+      <div class="section-title">Starters</div>
+      <div class="menu-item"><div><h3><a href="ar/soup.html">Carrot Soup</a></h3><p>Healthy carrot soup with herbs</p></div><div class="price">₹50</div></div>
+      <div class="menu-item"><div><h3><a href="ar/ramen.html">Ramen</a></h3><p>Japanese-style noodle soup with toppings</p></div><div class="price">₹160</div></div>
+      <div class="menu-item"><div><h3><a href="ar/stew.html">Stew</a></h3><p>Thick savory stew with vegetables</p></div><div class="price">₹90</div></div>
+    </div>
+
+    <div class="menu-section">
+      <div class="section-title">Breads</div>
+      <div class="menu-item"><div><h3><a href="ar/french-bread.html">French Bread</a></h3><p>Classic French baguette</p></div><div class="price">₹55</div></div>
+      <div class="menu-item"><div><h3><a href="ar/croissant.html">Croissant</a></h3><p>Buttery and flaky breakfast pastry</p></div><div class="price">₹65</div></div>
+    </div>
+
+    <div class="menu-section">
+      <div class="section-title">Main Course</div>
+      <div class="menu-item"><div><h3><a href="ar/pizza.html">Pepperoni Pizza</a></h3><p>Cheesy pizza with pepperoni slices</p></div><div class="price">₹220</div></div>
+      <div class="menu-item"><div><h3><a href="ar/meals.html">Meals</a></h3><p>Traditional South Indian thali</p></div><div class="price">₹100</div></div>
+      <div class="menu-item"><div><h3><a href="ar/cheeseburger.html">Cheeseburger</a></h3><p>Grilled burger with cheese slice</p></div><div class="price">₹250</div></div>
+    </div>
+
+    <div class="menu-section">
+      <div class="section-title">Desserts</div>
+      <div class="menu-item"><div><h3><a href="ar/falooda.html">Falooda</a></h3><p>Chilled dessert with vermicelli and rose milk</p></div><div class="price">₹95</div></div>
+      <div class="menu-item"><div><h3><a href="ar/icecream.html">Soft Ice Cream</a></h3><p>Creamy vanilla swirl in a cone</p></div><div class="price">₹25</div></div>
+    </div>
+
+    <div class="footer">© 2025 STDM Kitchen. All rights reserved.</div>
+  </div>
+
+</body>
+</html>
